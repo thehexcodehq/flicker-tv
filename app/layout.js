@@ -7,6 +7,7 @@ export const metadata = {
   description: "Flicker TV is an open source quote generator that generates random quote. It's a great way to get started with open source.",
   image: "https://i.postimg.cc/yNwwpqR0/image.png",
   keywords: ["Flicker", "tv", "quote", "generator", "open", "source"],
+  color: "#f5f5f5",
   openGraph: {
 
     images: [
@@ -19,7 +20,6 @@ export const metadata = {
     images: [
       {
         url: "https://i.postimg.cc/yNwwpqR0/image.png",
-        color: "#ffffff",
       },
     ]
   },
