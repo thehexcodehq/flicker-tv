@@ -1,95 +1,68 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client"
+
+import Image from "@/app/components/Image";
+import "@/app/globals.css";
+import quotes from '@/quotes'; // Adjust the path as needed
+import React, { useState, useEffect } from 'react';
+import FilmGrain from "@/app/components/filmGrain";
 
 export default function Home() {
+
+  const [selectedQuote, setSelectedQuote] = useState(null);
+
+  useEffect(() => {
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    setSelectedQuote(quotes[randomIndex]);
+  }, []);
+
+  if (!selectedQuote) {
+    return null; // Or some loading state
+  }
+  
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
+    <main>
+      <div className="containerStyle">
+        
+        <div className="blur-in banner">
+          
+          <div className="corners">
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
+              src="decorative-corner.png"
+              className="fadeIn"
             />
-          </a>
+            <Image
+              src="decorative-corner.png"
+              className="fadeIn"
+            />
+            <Image
+              src="decorative-corner.png"
+              className="fadeIn"
+            />
+            <Image
+              src="decorative-corner.png"
+              className="fadeIn"
+            />
+          </div>
+
+          <h1 className="title fadeIn">Flicker</h1>
+
+          <p className="subtitleStyle">
+          “{selectedQuote.quote}”.
+          </p>
+
+          <p className="subtitleStyle">
+          — {selectedQuote.author}
+          </p>
+
+          <div className="footerStyle">
+            <p>
+              ©{' '}
+              <a>HexCodeHQ | Quote Submitted By {selectedQuote.submitter}</a>
+            </p>
+          </div>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      <FilmGrain />
     </main>
   );
 }
