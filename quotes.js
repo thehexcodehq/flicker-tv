@@ -31,7 +31,28 @@ export default [
         submitter: "@sorenblank"
     },
     
+
+    {
+        quote: "It's fine to celebrate success but it is more important to heed the lessons of failure.",
+        author: "Bill Gates",
+        submitter: "@hh-abir"
+    },
+
+    {
+        quote: "You don't learn to walk by following the rules. You learn by doing, and by falling over.",
+        author: "Richard Branson",
+        submitter: "@hh-abir"
+    },
+
+    {
+        quote: "I knew that if I failed I wouldn't regret that, but I knew the one thing I might regret is not trying.",
+        author: "Jeff Bezos",
+        submitter: "@hh-abir"
+    },
     
     
+
+
      // Add more quotes above this line...
+
 ];
