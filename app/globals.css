@@ -101,6 +101,14 @@ h1 {
   font-size: 1em;
   text-shadow: 1px 1px 1px #ddd, 2px 2px 1px #ccc, 0 0 1em black;
 }
+.hexhqLink{
+  color: aliceblue;
+  text-decoration-color: #eee;
+}
+.submitterLink{
+  color: aliceblue;
+  text-decoration-color: #eee;
+}
 
 
 /* 

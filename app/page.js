@@ -93,7 +93,7 @@ export default function Home() {
             <p>
               {/* Display the footer */}
               ©{' '}
-              <a>HexCodeHQ | Quote Submitted By {selectedQuote.submitter}</a>
+              <a className="hexhqLink" href="https://github.com/HexCodeHQ">HexCodeHQ  </a> | Quote Submitted By <a className="submitterLink" href= {selectedQuote.github}>@{selectedQuote.submitter}</a>
             </p>
           </div>
         </div>
