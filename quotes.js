@@ -30,6 +30,11 @@ export default [
         author: "Elderbug",
         submitter: "@sorenblank"
     },
+    {
+        quote: "If you aren't struggling, you aren't learning.",
+        author: "Jo Boaler",
+        submitter: "@ParallaX07"
+    },
     
 
     {
