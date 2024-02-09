@@ -92,6 +92,14 @@ h1 {
   font-size: 24px;
 }
 
+.submitterLink{
+  color: aliceblue;
+}
+
+.hexhqLink{
+  color: aliceblue;
+}
+
 .subtitleStyle {
   font-size: 24px;
   max-width: 90vw;
@@ -101,6 +109,7 @@ h1 {
   font-size: 1em;
   text-shadow: 1px 1px 1px #ddd, 2px 2px 1px #ccc, 0 0 1em black;
 }
+
 
 
 /* 
