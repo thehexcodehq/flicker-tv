@@ -92,9 +92,8 @@ export default function Home() {
           <div className="footerStyle">
             <p>
               {/* Display the footer */}
-              {/* Linked footer with Hexcodehq and submitter github bellow*/}
               ©{' '}
-              <a className="hexhqLink" href="https://github.com/HexCodeHQ">HexCodeHQ</a> | Quote Submitted By <a className="submittertLink" href={selectedQuote.github}>{selectedQuote.submitter}</a>
+              <a className="hexhqLink" href="https://github.com/HexCodeHQ">HexCodeHQ</a> | Quote Submitted By <a className="submitterLink" href={selectedQuote.github}>{selectedQuote.submitter}</a>
             </p>
           </div>
         </div>
