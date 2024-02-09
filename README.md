@@ -32,7 +32,6 @@ git push origin quote/your_name
 
 If you have done everything right, one of our volunteer will merge your quote! 
 
----
 
 ## Contributing to the site
 If you want to upgrade the site or fix a bug or add a feature follow this:
@@ -43,6 +42,23 @@ If you want to upgrade the site or fix a bug or add a feature follow this:
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## Run this project locally
+Prerequisites are `Node.js 12.0` or later and `npm 7.0` or later.
+
+1. Clone the project repository from GitHub or any other source control platform.
+2. Navigate to the project directory and run `npm install` to install the dependencies.
+3. Run `npm run dev` to start the development server on port 3000.
+4. Open your browser and go to http://localhost:3000 to see the project running.
+
+```
+// 📙 Troubleshooting Guide 
+
+- If you encounter any errors while running `npm install` or `npm run dev`, check the console output for more details and possible solutions.
+
+- If you want to change the port number or other configuration options, you can edit the `next.config.js` file in the project root directory.
+
+- If you need more help or guidance, you can visit the [Next.js documentation](https://nextjs.org/docs) or the [Next.js GitHub repository](https://github.com/vercel/next.js/).
+```
 
 ## License
 ```
