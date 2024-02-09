@@ -49,7 +49,11 @@ export default [
         author: "Jeff Bezos",
         submitter: "@hh-abir"
     },
-    
+    {
+        quote: "I have not failed. I've just found 10,000 ways that won't work.",
+        author: "Thomas A. Edison",
+        submitter: "@MNDL-27"
+    },
     
 
 
