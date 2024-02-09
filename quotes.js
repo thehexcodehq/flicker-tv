@@ -64,12 +64,6 @@ export default [
         author: "Steve Jobs",
         submitter: "@souvikarjun"
     },
-    {
-        quote: "I am Groot",
-        author: "Groot",
-        submitter: "@souvikarjun"
-    },
-    
 
 
      // Add more quotes above this line...
