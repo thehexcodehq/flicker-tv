@@ -81,7 +81,7 @@ export default function Home() {
 
           {/* Display the selected quote */}
           <p className="subtitleStyle">
-          “{selectedQuote.quote}”.
+          “{selectedQuote.quote}”
           </p>
 
           {/* Display the author of the quote */}
