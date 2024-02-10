@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
 // Importing necessary hooks and components
 import Image from "@/app/components/Image";
 import "@/app/globals.css";
-import quotes from '@/quotes'; // Adjust the path as needed
-import React, { useState, useEffect } from 'react';
+import quotes from "@/quotes"; // Adjust the path as needed
+import { useState, useEffect } from "react";
 import FilmGrain from "@/app/components/filmGrain";
 
 /**
@@ -13,7 +13,7 @@ import FilmGrain from "@/app/components/filmGrain";
  * This is a React functional component that renders the home page of the application.
  * It uses the useState and useEffect hooks from React to manage state and side effects.
  *
- * The component initially sets the selectedQuote state to null. 
+ * The component initially sets the selectedQuote state to null.
  * When the component mounts, useEffect is triggered and a random quote is selected from the quotes array and set as the selectedQuote.
  *
  * If selectedQuote is null (which means no quote has been selected yet), the component returns null, effectively rendering nothing.
@@ -31,48 +31,44 @@ import FilmGrain from "@/app/components/filmGrain";
  * @module Home
  */
 
-
-
 export default function Home() {
-
   // State for storing the selected quote
   const [selectedQuote, setSelectedQuote] = useState(null);
 
   // Effect hook to select a random quote on component mount
   useEffect(() => {
-    const randomIndex = Math.floor(Math.random() * quotes.length); // Get a random index
-    setSelectedQuote(quotes[randomIndex]); // Set the selected quote to the quote at the random index
-  }, []);
-
-  // If no quote is selected, return null (or a loading state)
-  if (!selectedQuote) {
-    return null; // Or some loading state
-  }
+    if (selectedQuote === null) {
+      const randomIndex = Math.floor(Math.random() * quotes.length); // Get a random index
+      setSelectedQuote(quotes[randomIndex]); // Set the selected quote to the quote at the random index
+    }
+  }, [selectedQuote]);
 
   // Render the main component
   return (
     <main>
       <div className="containerStyle">
-        
-        <div className="blur-in banner">
-          
+        <div className="blur-in banner" onClick={() => setSelectedQuote(null)}>
           <div className="corners">
             {/* Display decorative corners */}
             <Image
               src="decorative-corner.png"
               className="fadeIn"
+              alt="Decorative Corner Image"
             />
             <Image
               src="decorative-corner.png"
               className="fadeIn"
+              alt="Decorative Corner Image"
             />
             <Image
               src="decorative-corner.png"
               className="fadeIn"
+              alt="Decorative Corner Image"
             />
             <Image
               src="decorative-corner.png"
               className="fadeIn"
+              alt="Decorative Corner Image"
             />
           </div>
 
@@ -80,20 +76,20 @@ export default function Home() {
           <h1 className="title fadeIn">Flicker</h1>
 
           {/* Display the selected quote */}
-          <p className="subtitleStyle">
-          “{selectedQuote.quote}”.
-          </p>
+          {selectedQuote && (
+            <p className="subtitleStyle fadeIn">“{selectedQuote.quote}”.</p>
+          )}
 
           {/* Display the author of the quote */}
-          <p className="subtitleStyle">
-          — {selectedQuote.author}
-          </p>
+          {selectedQuote && (
+            <p className="subtitleStyle fadeIn">— {selectedQuote.author}</p>
+          )}
 
           <div className="footerStyle">
             <p>
               {/* Display the footer */}
-              ©{' '}
-              <a>HexCodeHQ | Quote Submitted By {selectedQuote.submitter}</a>
+              {selectedQuote &&
+                `© HexCodeHQ | Quote Submitted By ${selectedQuote.submitter}`}{" "}
             </p>
           </div>
         </div>
