@@ -54,12 +54,38 @@ export default [
         author: "Jeff Bezos",
         submitter: "@hh-abir"
     },
+
     {
         quote: "I have not failed. I've just found 10,000 ways that won't work.",
         author: "Thomas A. Edison",
         submitter: "@MNDL-27"
     },
-    
+
+    {
+    quote: "You only live once, but if you do it right, once is enough.",
+    author: "Mae West",
+    submitter: "@souvikarjun"
+    },
+
+    {
+    quote: "Everything you can imagine is real.",
+    author: "Pablo Picasso",
+    submitter: "@souvikarjun"
+    },
+
+    {
+    quote: "If you really look closely, most overnight successes took a long time.",
+    author: "Steve Jobs",
+    submitter: "@souvikarjun"
+    },
+
+    {
+    quote: "I am Groot.",
+    author: "Groot",
+    submitter: "@souvikarjun"
+    },
+
+
 
 
      // Add more quotes above this line...
