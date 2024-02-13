@@ -85,7 +85,41 @@ export default [
     submitter: "@souvikarjun"
     },
 
-
+    {
+        quote: "I survived because the fire inside burned brighter than the fire around me.",
+        author: "Joshua Graham",
+        submitter: "@fattahsamit"
+    },
+    
+    {
+        quote: "If you gaze long enough into an abyss, the abyss will gaze back into you.",
+        author: "Friedrich Nietzsche",
+        submitter: "@fattahsamit"
+    },
+    
+    {
+        quote: "You make your own luck if you stay at it long enough.",
+        author: "Naval Ravikant",
+        submitter: "@fattahsamit"
+    },
+    
+    {
+        quote: "Your problem is you spent your whole life thinking there are rules. There aren't.",
+        author: "Lorne Malvo",
+        submitter: "@fattahsamit"
+    },
+    
+    {
+        quote: "It's a funny thing, ambition. It can take one to sublime heights or harrowing depths. And sometimes they are one and the same.",
+        author: "Emily Kaldwin",
+        submitter: "@fattahsamit"
+    },
+    
+    {
+        quote: "Death is inevitable. Our fear of it makes us play safe, blocks out emotion. It's a losing game. Without passion, you are already dead.",
+        author: "Max Payne",
+        submitter: "@fattahsamit"
+    }
 
 
      // Add more quotes above this line...
