@@ -119,9 +119,14 @@ export default [
         quote: "Death is inevitable. Our fear of it makes us play safe, blocks out emotion. It's a losing game. Without passion, you are already dead.",
         author: "Max Payne",
         submitter: "@fattahsamit"
+    },
+
+    {
+        quote: "It always rains the hardest on people who deserve the sun",
+        author: "J. Cole",
+        submitter: "@SahriarNahid"
     }
-
-
+    
      // Add more quotes above this line...
 
 ];
