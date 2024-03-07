@@ -125,6 +125,30 @@ export default [
         quote: "It always rains the hardest on people who deserve the sun",
         author: "J. Cole",
         submitter: "@SahriarNahid"
+    },
+
+    {
+        quote: "I disapprove of what you say, but I will defend to the death your right to say it",
+        author: "Voltaire",
+        submitter: "@royhridoy"
+    },
+
+    {
+        quote: "Judge a man by his questions rather than his answers.",
+        author: "Voltaire",
+        submitter: "@royhridoy"
+    },
+
+    {
+        quote: "Common sense is not so common.",
+        author: "Voltaire",
+        submitter: "@royhridoy"
+    },
+
+    {
+        quote: "Don't think money does everything or you are going to end up doing everything for money",
+        author: "Voltaire",
+        submitter: "@royhridoy"
     }
     
      // Add more quotes above this line...
