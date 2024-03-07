@@ -207,6 +207,31 @@ transform: rotate(270deg);
 
 /* 
 ===========================
+REFRESH BUTTON STYLES
+===========================
+*/
+
+.refreshBtn {
+  margin-top: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-family: 'Bellefair', serif;
+  text-shadow: 1px 1px 1px #ddd, 2px 2px 1px #ccc, 0 0 1em black;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: #dddddd;
+}
+
+/* 
+===========================
 MEDIA QUERIES
 ===========================
 */
