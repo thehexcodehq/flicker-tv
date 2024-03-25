@@ -177,6 +177,33 @@ export default [
     author: "Cory House",
     submitter: "@faysal0x1",
   },
+  {
+    quote: "Kindness is a mark of faith, and whoever is not kind has no faith.",
+    author: "Prophet Muhammad ﷺ",
+    submitter: "@tawhidib",
+  },
+  {
+    quote:
+      "Whoever does not show mercy to our young ones, or acknowledge the rights of our elders, is not one of us.",
+    author: "Prophet Muhammad ﷺ",
+    submitter: "@tawhidib",
+  },
+  {
+    quote: "Speak good or remain silent.",
+    author: "Prophet Muhammad ﷺ",
+    submitter: "@tawhidib",
+  },
+  {
+    quote:
+      "The strong person is not the one who can wrestle someone else down. The strong person is the one who controls his anger.",
+    author: "Prophet Muhammad ﷺ",
+    submitter: "@tawhidib",
+  },
+  {
+    quote: "The best of people are those who benefit others.",
+    author: "Prophet Muhammad ﷺ",
+    submitter: "@tawhidib",
+  },
 
   // Add more quotes above this line...
 ];
