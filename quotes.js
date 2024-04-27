@@ -205,5 +205,11 @@ export default [
     submitter: "@tawhidib",
   },
 
+  {
+    quote: "The best among you are those who have the best manners and character.",
+    author: "Prophet Muhammad ﷺ",
+    submitter: "@sorenblank",
+  }
+
   // Add more quotes above this line...
 ];
