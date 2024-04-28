@@ -218,9 +218,13 @@ export default [
     submitter: "@sorenblank",
   },
   {
-    quote: "You have to believe in yourself when no one else does",
+    quote: "You have to believe in yourself when no one else does.",
     author: "Serena Williams",
     submitter: "@sujoncham",
+  },
+    quote: "It’s foolish to fear what we’ve yet to see and know.",
+    author: "Masashi Kishimoto",
+    submitter: "@hasnat-shahriyar",
   },
 
   // Add more quotes above this line...
