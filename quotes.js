@@ -214,6 +214,11 @@ export default [
     quote: "A person can only truly learn once they realize how little they know.",
     author: "Heine Wittgenstei",
     submitter: "@sorenblank",
+  },
+  {
+    quote: "Don't think too much. Build first, optimize it later.",
+    author: "Raihan Chowdhury",
+    submitter: "@raihan",
   }
 
   // Add more quotes above this line...
