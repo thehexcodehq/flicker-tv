@@ -206,15 +206,17 @@ export default [
   },
 
   {
-    quote: "The best among you are those who have the best manners and character.",
+    quote:
+      "The best among you are those who have the best manners and character.",
     author: "Prophet Muhammad ﷺ",
     submitter: "@sorenblank",
   },
   {
-    quote: "A person can only truly learn once they realize how little they know.",
+    quote:
+      "A person can only truly learn once they realize how little they know.",
     author: "Heine Wittgenstei",
     submitter: "@sorenblank",
-  }
+  },
 
   // Add more quotes above this line...
 ];
