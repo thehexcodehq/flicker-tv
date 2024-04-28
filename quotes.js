@@ -206,14 +206,21 @@ export default [
   },
 
   {
-    quote: "The best among you are those who have the best manners and character.",
+    quote:
+      "The best among you are those who have the best manners and character.",
     author: "Prophet Muhammad ﷺ",
     submitter: "@sorenblank",
   },
   {
-    quote: "A person can only truly learn once they realize how little they know.",
+    quote:
+      "A person can only truly learn once they realize how little they know.",
     author: "Heine Wittgenstei",
     submitter: "@sorenblank",
+  },
+  {
+    quote: "You have to believe in yourself when no one else does.",
+    author: "Serena Williams",
+    submitter: "@sujoncham",
   },
   {
     quote: "Don't think too much. Build first, optimize it later.",
@@ -224,7 +231,7 @@ export default [
     quote: "It’s foolish to fear what we’ve yet to see and know.",
     author: "Masashi Kishimoto",
     submitter: "@hasnat-shahriyar",
-  }
+  },
 
   // Add more quotes above this line...
 ];
