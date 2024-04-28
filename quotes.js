@@ -222,6 +222,12 @@ export default [
     author: "Serena Williams",
     submitter: "@sujoncham",
   },
+  {
+    quote: "Don't think too much. Build first, optimize it later.",
+    author: "Raihan Chowdhury",
+    submitter: "@raihan",
+  },
+  {
     quote: "It’s foolish to fear what we’ve yet to see and know.",
     author: "Masashi Kishimoto",
     submitter: "@hasnat-shahriyar",
