@@ -217,6 +217,11 @@ export default [
     author: "Heine Wittgenstei",
     submitter: "@sorenblank",
   },
+  {
+    quote: "You have to believe in yourself when no one else does",
+    author: "Serena Williams",
+    submitter: "@sujoncham",
+  },
 
   // Add more quotes above this line...
 ];
