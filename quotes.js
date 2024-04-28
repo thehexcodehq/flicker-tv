@@ -214,6 +214,11 @@ export default [
     quote: "A person can only truly learn once they realize how little they know.",
     author: "Heine Wittgenstei",
     submitter: "@sorenblank",
+  },
+  {
+    quote: "It’s foolish to fear what we’ve yet to see and know.",
+    author: "Masashi Kishimoto",
+    submitter: "@hasnat-shahriyar",
   }
 
   // Add more quotes above this line...
