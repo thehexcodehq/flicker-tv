@@ -232,6 +232,12 @@ export default [
     author: "Masashi Kishimoto",
     submitter: "@hasnat-shahriyar",
   },
+  {
+    quote:
+      "Develop a positive mindset and cultivate optimism. Focus on the positive aspects of your life and maintain an optimistic outlook Your mindset has a powerful impact on your success.",
+    author: "Kathryn Petras",
+    submitter: "@noyonalways",
+  },
 
   // Add more quotes above this line...
 ];
