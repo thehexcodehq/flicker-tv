@@ -231,10 +231,14 @@ export default [
     submitter: "@noyonalways",
   },
   {
+    quote: "Allah does not burden a soul beyond that it can bear.",
+    author: "Quran 2:286",
+    submitter: "@notAvailable73",
+  },
+  {
     quote: "First, solve the problem. Then, write the code.",
     author: "John Johnson",
     submitter: "@sabbir2809",
   },
-
   // Add more quotes above this line...
 ];
