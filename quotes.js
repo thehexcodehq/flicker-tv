@@ -231,9 +231,8 @@ export default [
     submitter: "@noyonalways",
   },
   {
-    quote:
-      "নিজেকে নিয়মিত জাহান্নামের (আগুণের) কথা স্মরণ করিয়ে দিন, কেননা নিশ্চিতভাবেই জাহান্নামের উত্তাপ অত্যন্ত বেশি, গভীরতা অত্যাধিক এবং তার অস্ত্র হলো লোহা।",
-    author: "Hazrat Umar (RA)",
+    quote: "First, solve the problem. Then, write the code.",
+    author: "John Johnson",
     submitter: "@sabbir2809",
   },
 
