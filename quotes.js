@@ -6,8 +6,7 @@
 
 export default [
   {
-    quote:
-      "If you can't explain it simply, you don't understand it well enough.",
+    quote: "If you can't explain it simply, you don't understand it well enough.",
     author: "Albert Einstein",
     submitter: "@sorenblank",
   },
@@ -78,8 +77,7 @@ export default [
   },
 
   {
-    quote:
-      "If you really look closely, most overnight successes took a long time.",
+    quote: "If you really look closely, most overnight successes took a long time.",
     author: "Steve Jobs",
     submitter: "@souvikarjun",
   },
@@ -91,15 +89,13 @@ export default [
   },
 
   {
-    quote:
-      "I survived because the fire inside burned brighter than the fire around me.",
+    quote: "I survived because the fire inside burned brighter than the fire around me.",
     author: "Joshua Graham",
     submitter: "@fattahsamit",
   },
 
   {
-    quote:
-      "If you gaze long enough into an abyss, the abyss will gaze back into you.",
+    quote: "If you gaze long enough into an abyss, the abyss will gaze back into you.",
     author: "Friedrich Nietzsche",
     submitter: "@fattahsamit",
   },
@@ -111,8 +107,7 @@ export default [
   },
 
   {
-    quote:
-      "Your problem is you spent your whole life thinking there are rules. There aren't.",
+    quote: "Your problem is you spent your whole life thinking there are rules. There aren't.",
     author: "Lorne Malvo",
     submitter: "@fattahsamit",
   },
@@ -138,8 +133,7 @@ export default [
   },
 
   {
-    quote:
-      "I disapprove of what you say, but I will defend to the death your right to say it",
+    quote: "I disapprove of what you say, but I will defend to the death your right to say it",
     author: "Voltaire",
     submitter: "@royhridoy",
   },
@@ -206,14 +200,12 @@ export default [
   },
 
   {
-    quote:
-      "The best among you are those who have the best manners and character.",
+    quote: "The best among you are those who have the best manners and character.",
     author: "Prophet Muhammad ﷺ",
     submitter: "@sorenblank",
   },
   {
-    quote:
-      "A person can only truly learn once they realize how little they know.",
+    quote: "A person can only truly learn once they realize how little they know.",
     author: "Heine Wittgenstei",
     submitter: "@sorenblank",
   },
@@ -239,10 +231,14 @@ export default [
     submitter: "@noyonalways",
   },
   {
-    quote:
-      "Allah does not burden a soul beyond that it can bear.",
+    quote: "Allah does not burden a soul beyond that it can bear.",
     author: "Quran 2:286",
     submitter: "@notAvailable73",
+  },
+  {
+    quote: "First, solve the problem. Then, write the code.",
+    author: "John Johnson",
+    submitter: "@sabbir2809",
   },
   // Add more quotes above this line...
 ];
