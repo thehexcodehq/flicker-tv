@@ -238,6 +238,11 @@ export default [
     author: "Kathryn Petras",
     submitter: "@noyonalways",
   },
-
+  {
+    quote:
+      "Allah does not burden a soul beyond that it can bear.",
+    author: "Quran 2:286",
+    submitter: "@notAvailable73",
+  },
   // Add more quotes above this line...
 ];
