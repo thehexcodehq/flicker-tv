@@ -38,10 +38,15 @@ export default function Home() {
   // State for storing the selected quote
   const [selectedQuote, setSelectedQuote] = useState(null);
 
-  // Effect hook to select a random quote on component mount
-  useEffect(() => {
+  // Always generate a random quote
+  const generateRandomQuote = () => {
     const randomIndex = Math.floor(Math.random() * quotes.length); // Get a random index
     setSelectedQuote(quotes[randomIndex]); // Set the selected quote to the quote at the random index
+  }
+
+  // Effect hook to select a random quote on component mount
+  useEffect(() => {
+    generateRandomQuote();
   }, []);
 
   // If no quote is selected, return null (or a loading state)
@@ -96,6 +101,14 @@ export default function Home() {
               <a>HexCodeHQ | Quote Submitted By {selectedQuote.submitter}</a>
             </p>
           </div>
+
+          {/* Button to generate a random quote without refreshing the page */}
+          <div className="refreshBtn">
+            <button className="btn" onClick={generateRandomQuote}>
+              Generate me another Quote
+            </button>
+          </div>
+
         </div>
       </div>
       {/* Add a film grain effect */}
