@@ -240,5 +240,11 @@ export default [
     author: "John Johnson",
     submitter: "@sabbir2809",
   },
+  {
+    quote: "The seeking of knowledge is obligatory for every Muslim.",
+    author: "Prophet Muhammad ﷺ",
+    submitter: "@Rahad-Ullah",
+  }
+  
   // Add more quotes above this line...
 ];
